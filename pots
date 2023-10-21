@@ -1,0 +1,11 @@
+import datetime
+
+current_date = datetime.date.today()
+current_year = current_date.year
+
+birth_year = int(input("Saisir votre année de naissance : "))
+age = current_year - birth_year
+if age < 3 :
+   print("Vous avez gagné une palette de petits pots !")
+else :
+   print("Vous avez perdu !")
